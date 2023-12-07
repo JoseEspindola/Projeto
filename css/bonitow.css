@@ -1,0 +1,98 @@
+/*comuns*/
+@font-face {
+    font-family: 'God of War Font';
+      src: url('GODOFWAR.TTF') format('truetype');
+      font-weight: normal;
+      font-style: normal;
+}
+* {
+    box-sizing: border-box;
+}
+
+html {
+    text-align: center;
+    font-family: 'God of War Font', Arial, sans-serif;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/capa1.jpg);
+}
+
+section {
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    margin: 5% 15%;
+    box-shadow: 0px 0px 30px 1px black;
+    border-radius: 30px;
+    background-color: rgba(155, 160, 160, 0.40);
+}
+p{
+    margin: 10px 10px;
+}
+
+img {
+    margin-top: 5px;
+    height: 30%;
+    width: 30%;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(225, 237, 242);
+}
+
+a:hover {
+    font-size: 30px;
+    color: rgb(102, 190, 228);
+}
+.menu{
+    color: rgb(0, 0, 0);
+    margin: 5% 35%;
+    box-shadow:inset 0px 0px 30px 1px rgba(76, 75, 75, 0.758);
+    border-radius: 20px;
+    background-color: rgba(102, 98, 98, 0.361);
+    /*SEPARA*/
+    text-align: center;
+    font-size: 25px;
+}
+::marker{
+    color: rgba(0, 0, 0, 0);
+}
+
+@media only screen and (min-width: 641px) and (max-width: 1007px) {
+    section {
+        margin: 4%;
+        font-size: 20px;
+        box-shadow:inset 0px 0px 2px 4px black;
+        border-radius: 15px;
+    }
+    img {
+        height: 20%;
+        width: 20%;
+    }
+    .menu {
+        margin: 4%;
+        font-size: 22px;
+    }
+}
+@media only screen and (max-width: 640px) {
+    section {
+        margin: 2%;
+        font-size: 18px;
+        box-shadow:inset 1px 1px 1px 1px black;
+        border-radius: 15px;
+    }
+    img {
+        height: 15%;
+        width: 15%;
+    }
+    body {
+        font-size: 18px;
+        text-align: center;
+    }
+    .menu {
+        margin: 2%;
+        font-size: 18px;
+    }   
+}

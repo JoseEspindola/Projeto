@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'God of War Font';
+      src: url('GODOFWAR.TTF') format('truetype');
+      font-weight: normal;
+      font-style: normal;
+  }
+html {
+    font-family: 'God of War Font', Arial, sans-serif;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/agradecimento/capa5.jpg);
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    color:  rgb( 132, 22, 21);
+    margin: 25% 15%;
+    box-shadow:inset 0px 0px 30px 1px rgba(201, 201, 201, 0.628);
+    border-radius: 30px;
+    background-color: rgba(220, 227, 227, 0.4);
+}
+a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px  black;
+}
+a:hover{
+  font-size: 30px;
+  color: rgb( 132, 22, 21);
+}
+.menu{
+  text-shadow: 1px 1px  black;
+  color: rgb(255, 255, 255);
+  margin: 5% 35%;
+  box-shadow:inset 0px 0px 300px 1px rgba(0, 0, 0, 0.443);
+  border-radius: 20px;
+  background-color: rgba(245, 243, 220, 0.671);
+  /*SEPARA*/
+  text-align: center;
+  font-size: 25px;
+}
+::marker{
+  color: rgba(0, 0, 0, 0);
+}
+@media only screen and (max-width: 640px) {
+    h1 {
+      font-size: 40px;
+    }
+    .menu {
+      margin: 3%;
+      font-size: 22px;
+  }
+  }
+  @media only screen and (min-width: 641px) and (max-width: 1007px) {
+    h1 {
+      font-size: 45px;
+    }
+    .menu {
+      margin: 2%;
+      font-size: 18px;
+  }
+  }

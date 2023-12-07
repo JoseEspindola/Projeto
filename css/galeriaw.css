@@ -1,0 +1,70 @@
+/*comuns*/
+@font-face {
+    font-family: 'God of War Font';
+      src: url('GODOFWAR.TTF') format('truetype');
+      font-weight: normal;
+      font-style: normal;
+}
+*{
+    margin: 0;
+}
+html{
+    font-family: 'God of War Font', Arial, sans-serif;
+    color: #fff;
+    text-align: center;
+    background-position: center bottom;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/galeria/capa2.jpg);
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+a:hover{
+    font-size: 28px;
+    color: rgb(234, 46, 46);
+}
+
+img{
+    transition: 1s;
+    opacity: 0.5;
+    object-fit: cover;
+    flex: 1 1 10px;
+    min-width: 0;
+    aspect-ratio: 13/14;
+}
+img:hover{
+    opacity: 1;
+    flex:1 1 250px ;
+}
+.menu{
+    margin: 5% 35%;
+    background-color: rgba(0, 0, 0, 0.395);
+}
+.galeria{
+    background-color: rgba(0, 0, 0, 0.477);
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+::marker{
+    color: rgba(0, 0, 0, 0);
+}
+@media only screen and (min-width: 641px) and (max-width: 1007px) {
+    .menu {
+        margin: 3%;
+        font-size: 22px;
+    }
+    img {
+        height: 20%;
+        width: 20%;
+    }
+}
+@media only screen and (max-width: 641px) {
+    .menu {
+        margin: 2%;
+        font-size: 18px;
+    }
+}
